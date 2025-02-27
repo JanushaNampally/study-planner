@@ -1,0 +1,6 @@
+{% for subject, hours in schedule.items %}
+<div class="p-4 bg-blue-200 rounded-lg shadow-lg">
+    <h2 class"text-xl font-bold">{{ subject }}</h2>
+    <p>Recommended Study Hours: {{ hours }}</p>
+</div>
+{% endfor %}
